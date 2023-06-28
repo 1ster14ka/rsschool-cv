@@ -36,3 +36,92 @@
               </li>
             </ul>
           </section>
+
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">English</p>
+              </li>
+              <li>
+                <p class="language-name">Russian</p>
+              </li>
+              <li>
+                <p class="language-name">Ukrainian</p>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-column">
+        <section class="about-myself">
+          <div class="sub-header">
+            <h3>About Myself</h3>
+          </div>
+          <p>I am 22 years old, **ambitious**, **fast**, with **character**.</p>
+          <p>I studied as an assistant driver after working for half a year, I realized that this job was not for me.</p>
+          <p>I prefer to puzzle over complex problems, well, I really like to solve complex problems, and when I solve them, I feel such joy in my soul. Therefore, I really want to become a programmer and constantly develop in this area.</p>
+        </section>
+        <div class="sub-header">
+            <img src="./icons/courses.svg" alt="Courses" width="30" height="30">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+            <li>HTML and CSS learn on w3schools</li>
+            <li>JavaScript learn on learnjavascript.ru</li>
+            <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+          </ul> 
+          <div class="sub-header">
+            <h3>My code</h3>
+          </div>
+          <strong >let min = 0;
+let max = 8;
+let rand = min + Math.random() * (max - min);
+let random = Math.floor(rand);
+let location1 = random;
+let location2;
+let location3;
+
+
+if(location1 == 0){
+  location2 = location1 + 1;
+  location3 = location2 + 1;
+}else if(location1 == 7) {
+  location2 = location1 - 1;
+  location3 = location2 - 1;
+}else{
+  location2 = location1 + 1;
+  location3 = location1 - 1;
+}
+
+
+let hits = 0;
+let guesses = 0;
+let guess;
+let isSank = false;
+
+while(isSank == false) {
+  guess = prompt('Enter num 0 - 7');
+  if(guess < '0' || guess > '8') {
+    alert('Enter valid num');
+  }else{
+    guesses += 1;
+   if(guess == location1 || guess == location2 || guess == location3) {
+      hits += 1;
+      alert('Hits');
+      if(guess == location1) {
+        location1 = undefined;
+      }else if(guess == location2) {
+        location2 = undefined;
+      }else if(guess == location3) {
+        location3 = undefined;
+      }
+      if(hits == 3){
+        isSank = true;
+        alert(`Вы выстрелили ${guesses} и ваша точность ${3/guesses.toFixed(2)}`);
+      }
+    }else {
+      alert('Miss');
+    }
+  }
+}; </strong>
