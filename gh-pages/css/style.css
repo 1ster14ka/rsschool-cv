@@ -1,7 +1,7 @@
 :root {
     --dark-gray-color: #505050;
     --ligth-gray-color: #777777;
-    --pink-color: #ffd6d2;
+    --pink-color: #000000;
   }
   
   body {
@@ -42,7 +42,7 @@
   
   header img {
     margin-bottom: 10px;
-    border: 10px solid var(--pink-color);
+    border: 10px solid var(--black-color);
     border-radius: 50%;
   }
   
@@ -85,10 +85,7 @@
     margin-bottom: 10px;
   }
   
-  .contacts li img {
-    vertical-align: middle;
-    margin-right: 15px;
-  }
+
   
   .contacts li p {
     display: inline;
@@ -139,10 +136,6 @@
     border-bottom: 2px solid var(--ligth-gray-color);
   }
   
-  .right-column img {
-    vertical-align: middle;
-    margin-right: 15px;
-  }
   
   .right-column p {
     color: var(--ligth-gray-color);
@@ -167,11 +160,6 @@
     color: var(--ligth-gray-color);
   }
   
-  .right-column img.score-img {
-    display: block;
-    margin: 0 auto;
-  }
-  
   .code-example p {
     margin-left: 45px;
   }
@@ -185,26 +173,3 @@
     background-color: #f5f5f5;
   }
   
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    font-size: 0.8rem;
-    color: #ffffff;
-    background-color: var(--dark-gray-color);
-  }
-  
-  footer a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  footer .github-icon {
-    margin-right: 10px;
-  }
-  
-  .my-github {
-    display: flex;
-    align-items: center;
-  }
