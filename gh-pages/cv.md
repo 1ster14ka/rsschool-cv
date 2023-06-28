@@ -1,9 +1,33 @@
-![Моё фото](C:\Users\Lenovo\Desktop\3rAZzmH7zmw.jpg)
-**1.** *Viktor Ivanov*
-**2.** [Phone number]: (+48 731 116 342). [E-mail]: (danyazybastik@gmail.com). [Discord]: (Viktor Ivanov (@1ster14ka)).
-**3.** I am 22 years old, **ambitious**, **fast**, with **character**. I studied as an assistant driver after working for half a year, I realized that this job was not for me. I prefer to puzzle over complex problems, well, I really like to solve complex problems, and when I solve them, I feel such joy in my soul. Therefore, I really want to become a programmer and constantly develop in this area.
-**4.** ## Studied on my own *HTML*, *CSS*, *JavaScript*. Didn't get to frameworks.
-**5.** Battle Ship
+# Viktor Ivanov
+### Novice developer
+
+---
+
+### Contact information:
+
+**Phone:** +48 731 116 342<br>
+**E-mail:** danyazybastik@gmail.com<br>
+**Telegram:** @excusemebr00<br>
+
+---
+
+### Briefly About Myself:
+
+I am 22 years old, **ambitious**, **fast**, with **character**. <br>
+I studied as an assistant driver after working for half a year, I realized that this job was not for me.<br>
+I prefer to puzzle over complex problems, well, I really like to solve complex problems, and when I solve them, <br> I feel such joy in my soul. Therefore, I really want to become a programmer and constantly develop in this area. <br>
+
+---
+
+### Skills and Proficiency:
+
+Studied on my own *HTML*, *CSS*, *JavaScript*. Didn't get to frameworks.
+
+---
+
+### My code
+
+ Battle Ship
 ```javascript
 let min = 0;
 let max = 8;
@@ -57,6 +81,11 @@ while(isSank == false) {
   }
 };
 ```
-**6.** No programming experience.
-**7.** I studied everything on the Internet.
-**8.** I don't know English well А1- А2.
+
+---
+
+### Languages:
+
+- Ukrainian
+- Russian
+- English
